@@ -3,7 +3,8 @@ package neuefische.de;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        System.out.println("Hello world!");
+        String test = "Hello World!";
+        //System.out.println(FigletFont.convertOneLine(test));
 
 
     }
