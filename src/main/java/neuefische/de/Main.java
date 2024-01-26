@@ -1,11 +1,14 @@
 package neuefische.de;
 
+import java.io.IOException;
+
+import static com.github.lalyos.jfiglet.FigletFont.convertOneLine;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println("Hello world!");
         String test = "Hello World!";
-        //System.out.println(FigletFont.convertOneLine(test));
-
+        System.out.print(convertOneLine(test));
 
     }
 
