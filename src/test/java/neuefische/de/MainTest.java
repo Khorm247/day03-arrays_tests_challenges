@@ -9,7 +9,7 @@ class MainTest {
         // GIVEN
         int a = 3;
         int b = 3;
-        int expected = a + b;
+        int expected = a - b;
         // WHEN
         int actual = Main.add(a, b);
         // THEN
